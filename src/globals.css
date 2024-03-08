@@ -16,3 +16,8 @@ p{
     background-color: rgb(255, 166, 0);
     text-align: center;
 }
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
