@@ -13,6 +13,7 @@ export default function App() {
       <Header/>
         <h1 id = "text">CR7 melhor que Messi</h1>
         <p>Tigrinho melhor investimento</p>
+        <p>budega</p>
       <Footer/>
       </div>  
   
