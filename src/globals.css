@@ -1,4 +1,4 @@
-header{`
+header{
   height: 100px;
   background-color: gray;
 }
@@ -6,18 +6,20 @@ footer{
     height: 100px;
     background-color: aquamarine;
 }
-#text{
-    height: 100px;
-    background-color: beige;
-    text-align: center;
+main{
+    height: 600px;
 }
-p{
-    height: 100px;
-    background-color: rgb(255, 166, 0);
-    text-align: center;
+form{
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+        background-color: rgb(234, 234, 234);
 }
-div{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#telefone{
+   margin-left: 15px;
+}
+button{
+    margin-top: 15px;
 }
