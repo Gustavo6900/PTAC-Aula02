@@ -6,12 +6,18 @@ export default function Main(){
  
    const [ nome, setNome ] = useState("");
    const [ telefone, setTelefone] = useState("")
+   const [ listaContatos, setLIsta]= useState([])
+
+   const registrar = (event) => {
+      event.preventDefault();
+   };
 
    return(
     
     <main>
-       <form>
+       <form action="" onSubmit={registrar}>
 
+<label htmlFor="nome"> </label>
        <input type="text" 
        name=""
        id="nome"
@@ -21,7 +27,7 @@ export default function Main(){
        />
 
 
-       
+       <label htmlFor=" telefone"></label>
        <input type="tel" 
         name=""
          id="telefone"
