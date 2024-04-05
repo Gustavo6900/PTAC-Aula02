@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Main(){
  
    const [ nome, setNome ] = useState("");
-   const [ telefone, setTelefone] = useState("")
+   const [ telefone, setTelefone] = useState(0)
    const [ listaContatos, setListaContatos]= useState([])
 
    const registrar = (event) => {
@@ -54,7 +54,13 @@ export default function Main(){
 
          <button>cadastrar</button>
        </form>
-      
+      {listaContatos.map((contato, index) => 
+      <di key={index}>
+           <p>{contato.nomeSalvo} {contato.telefoneSalvo}</p> 
+           
+      </di>
+      )}
+
     </main>
       
    )
